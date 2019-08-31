@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/08/2019, 20:13:08
+    Author     : Andrews
+*/
+
+body{
+    background-color:#007bff;
+}
+
+nav.navbar-light{
+    padding: 10px 0px;
+    background-color: rgba(75, 14, 29,.8);
+    border: none;
+}
+
+@media (min-width: 768px){
+    .navbar-left{
+        float: left !important;
+    }
+    
+    .navbar-right{
+        float: right !important;
+        margin-left: 30rem;
+    }
+    
+    .navbar-right ~ navbar-right{
+        margin-left: 0;
+    }
+}
+
+.navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-nav>li>a:hover{
+    color: #32cd32;
+    text-decoration: none;
+}
+
+nav{
+    padding: 15px 0px;
+    background-color: rgba(75, 14, 29,.6);
+    border: none;
+}
+
+.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('../imagens/spotify.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+li{ padding: 5px 12px;}
+#barra{
+    padding:0 9px 9px 9px; }
+
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    line-height: 1.5;
+    border-radius: 4px;
+    padding: 7px 12px 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-green{
+    color: #fff;
+    background-color: #1ED760;
+    margin-left: 15rem;
+    padding: 10px;
+}
+
+.btn-green:hover{
+    color: #fff;
+    background-color: #4bdf80;
+}
+
+.btn-green:focus{
+    color: #fff;
+    background-color: #18ac4d;
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+.btn-simplified{
+    border-radius: 30px;
+    padding: 10px 60px 10px 60px;
+}
+
+div#content{
+    margin: 25rem 40rem 0 40rem;
+    min-height: 100%;
+        
+        align-items: center;
+        width: 100%;
+        webkit-transform: translateY(24px);
+        -ms-transform: translateY(24px);
+        transform: translateY(24px);
+        color: #fff;
+        min-height: 80vh;
+}
+
+.row-simplified{
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+
+html{
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+    font-family: inherit;
+    font-weight: 900;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h4{
+    font-size: 18px;
+    margin: 05em 0 1em;
+    font-weight: 400;
+    color: #191970;
+    text-align: center;
+        color: black;
+        display: table-cell;
+        vertical-align: middle;
+}
+
+h1{
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+        color: #f8f8f8;
+        text-align: center;
+        color: white;
+        display: table-cell;
+        vertical-align: middle;
+}
